@@ -1,0 +1,47 @@
+jQuery:
+FOR INPUTS:
+.val()
+
+FOR DIV/SECTIONS:
+.text()
+
+or 
+
+textContent
+
+
+SELECTORS:///////////////////////////////////////////////////////////////////////////////////
+$("p").css("border", "3px solid red");
+
+$("p.className").css("border", "3px solid red");//paragraphs with class class="className"
+$(".a")
+
+CHILD: $("div > p")
+
+FILTERS:///////////////////////////////////////////////////////////////////////////////////
+:first, :last, :selected
+$("#example p:first").css("border", "3px solid red");
+
+:even, :odd
+$("#example p:even").css("border", "3px solid red");
+
+:gt(), :lt(), :eq()//greater than, less than, equal to
+
+:not(exprs)
+$("#example p:not(p:eq(2))").css("border", "3px solid red");
+
+$("p[class]")//paragraphs which have classes
+$("p[id=para1]")//paragraphs with id="para1"
+$("p[id^=para]")//paragraphs start with id="para"
+
+$("p:contains('3')").css("border", "3px solid red")//the paragraph contains the number 3
+$("div:has(p[class=a])").css("border", "3px solid red")
+
+$("div p:first-child").css("border", "3px solid red")//the first paragraph of a div
+$("div p:last-of-type").css("border", "3px solid red")//the last paragraph of a div
+$("div p:nth-child(3)").css("border", "3px solid red")//the 3rd paragraph of a div
+$("div p:nth-child(2n)").css("border", "3px solid red")//every 2nd paragraph of a div
+
+EVENTS:///////////////////////////////////////////////////////////////////////////////////
+
+

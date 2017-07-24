@@ -1,0 +1,40 @@
+Test initial state:
+--add(item) exists
+--sumNums() exists
+--remove() exists
+--toString() exists
+
+add(item):
+--add empty elements
+--add 0 elements
+--add 1 element - number
+--add 1 element - string
+--add many elements - numbers
+--add many elements - fractional numbers
+--add many elements - negative numbers
+--add many elements - strings
+--add many elements - numbers+strings
+
+sumNums():
+--sum NO numbers - empty - return 0
+--sum numbers - return result
+--sum fractional numbers
+--sum negative numbers
+--sum numbers + strings - return result (only the sum of the numbers)
+--sum fractional numbers + strings - return result (only the sum of the numbers)
+--sum negative numbers + strings - return result (only the sum of the numbers)
+--typeof item -> "number"
+--typeof item -> "string"
+--typeof item -> "string"
+
+removeByFilter(filterFunc):
+--functions:
+data.removeByFilter(x => x % 2 === 0);
+data.removeByFilter(x => x % 2 !== 0);
+
+toString():
+--empty array[] - return string "empty"
+--array > 0
+--array = 0
+--array < 0
+--with mixed functions

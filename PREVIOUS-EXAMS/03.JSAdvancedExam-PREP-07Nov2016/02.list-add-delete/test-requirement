@@ -1,0 +1,18 @@
+add():
+--number
+--numbers
+--string
+--string+numbers
+
+delete():
+--with number
+--negative number
+--0
+--string
+--with floating point number
+
+toString():
+--empty string
+
+.add+.delete:
+--mix

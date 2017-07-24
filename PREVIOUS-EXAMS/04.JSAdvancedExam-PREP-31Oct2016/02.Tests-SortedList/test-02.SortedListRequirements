@@ -1,0 +1,28 @@
+Test initial state:
+--add exists
+--remove exists
+--get exists
+--size exists
+
+add():
+--add 1 element
+--add many elements
+
+remove():
+--test if list is empty (should throw error: "Collection is empty")
+--test negative number(index) (should throw error: "Index was outside the bounds of the collection.")
+--test if index is equal to list length (should throw error: "Index was outside the bounds of the collection.")
+--test if index is bigger than list length (should throw error: "Index was outside the bounds of the collection.")
+--test with correct index (element should be removed)
+
+get():
+--test if list is empty (should throw error)
+--test negative number (should throw error)
+--test if index is equal tp list length (should throw error)
+--test if index is bigger than list length (should throw error)
+--test with correct index (should return the correct element)
+
+size():
+--empty list
+--list with elements
+
